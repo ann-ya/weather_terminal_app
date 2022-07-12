@@ -2,7 +2,7 @@ import requests
 import datetime
 
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
-API_KEY = "9a05b63243ab6d8b9556ea184ef38821"
+API_KEY = ""
 
 city_input = input("Enter a city name: ")
 request_url = f"{BASE_URL}?appid={API_KEY}&q={city_input.title()}"
